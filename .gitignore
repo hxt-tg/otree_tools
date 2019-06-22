@@ -53,8 +53,9 @@ coverage.xml
 
 # Django stuff:
 *.log
+.static_storage/
+.media/
 local_settings.py
-db.sqlite3
 
 # Flask stuff:
 instance/
@@ -102,3 +103,16 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# data
+data/*
+zealots/output/*
+zealots/data/*
+*.txt
+!requirement.txt
+*.gif
+*.mp4
+*.avi
+*.jpg
+*.csv
+
